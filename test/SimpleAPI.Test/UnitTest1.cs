@@ -12,7 +12,7 @@ namespace SimpleAPI.Test
         public void GetReturnsWeatherForecast()
         {
             var returnValue = controller.Get(1);
-            Assert.Equal("Tonny Vanhaeren max", returnValue.Value);
+            Assert.Equal("Tonny Vanhaeren", returnValue.Value);
         }
 
         [Fact]
